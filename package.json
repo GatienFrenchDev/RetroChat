@@ -1,0 +1,19 @@
+{
+  "name": "retrochat",
+  "version": "1.0.0",
+  "description": "Application web de chat codé par Gatien",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GatienFrenchDev/RetroChat.git"
+  },
+  "author": "Gatien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GatienFrenchDev/RetroChat/issues"
+  },
+  "homepage": "https://github.com/GatienFrenchDev/RetroChat#readme"
+}
