@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GatienFrenchDev/RetroChat/issues"
   },
-  "homepage": "https://github.com/GatienFrenchDev/RetroChat#readme"
+  "homepage": "https://github.com/GatienFrenchDev/RetroChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
 }
