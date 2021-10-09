@@ -1,7 +1,5 @@
-/* IMPORTATION DES POLICES */
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
 
-/* MISE A 0 DES MARGES */
 *{
     margin: 0;
     padding: 0;
@@ -18,30 +16,45 @@ body{
     animation: change 20s ease-in-out infinite;
 }
 
-.formulaire{
-    margin-top: 300px;
-    display: grid;
-    justify-content: center;
+#principale{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 200px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
 }
 
-.formulaire h2{
-    font-size: 75px;
-    font-family: 'Saira Condensed', sans-serif;
+div.infos{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    width: 15%;
 }
 
-.formulaire input{
-    text-transform: lowercase;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Saira Condensed', sans-serif;
+div.infos ul li{
+    list-style: none;
 }
 
-.formulaire button{
-    text-transform: uppercase;
-    margin-top: 15px;
-    font-size: 40px;
-    font-family: 'Saira Condensed', sans-serif;
+div.chat{
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    width: 60%;
+    position: relative;
 }
+
+div.message{
+    padding: 25px;
+}
+
+div.message ul li{
+    list-style: none;
+}
+
+div.envoi{
+    padding: 25px;
+}
+
 
 
 

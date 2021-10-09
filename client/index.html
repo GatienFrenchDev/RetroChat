@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/acceuil.css">
-    <script src="js/app.js"></script>
-    <title>RetroChat</title>
-</head>
-<body>
-        <div class="formulaire">
-            <h2>Bienvenue sur RetroChat</h2>
-            <input type="text" placeholder="PSEUDO">
-            <button type="submit">me connecter</button>
-        </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/acceuil.css">
+        <title>RetroChat</title>
+    </head>
+    <body>
+
+        <form id="envoi-pseudo" action="chat.html">
+            <div class="formulaire">
+                <h2>Bienvenue sur RetroChat</h2>
+                <input type="text" name="pseudo" placeholder="PSEUDO" required>
+                <button type="submit" id="btn-envoi">me connecter</button>
+            </div>
+        </form>
+
+    </body>
 </html>
