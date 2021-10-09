@@ -43,13 +43,20 @@ div.chat{
     position: relative;
 }
 
-div.message{
-    padding: 25px;
+div.contenu{
+    display: grid;
 }
 
-div.message ul li{
-    list-style: none;
+div.message{
+    display: inline-flex;
+    padding: 20px;
+    font-size: 20px;
 }
+
+p.pseudo{
+    margin-right: 5px;
+}
+
 
 div.envoi{
     padding: 25px;
