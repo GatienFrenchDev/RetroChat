@@ -9,8 +9,8 @@ socket.on('message', msg =>{
 
 formulaire.addEventListener('submit', (e) =>{
     e.preventDefault()
-    const msg = e.target.elements.test.value
-    document.getElementById('test').value = null
+    const msg = document.getElementById('msg').value
+    document.getElementById('msg').value = null
     msg.trim()
     socket.emit('NewMessage', msg)
 })
