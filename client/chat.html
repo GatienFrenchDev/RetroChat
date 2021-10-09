@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/chat.css">
-    <title>RetroChat</title>
-</head>
-<body>
-    <div id="principale">
-        <!-- PARTIE DE GAUCHE -->
-        <div class="infos">
-            <h2>Infos sur la session :</h2>
-            <ul>
-                <li>Pseudo : xxxxxxxx</li>
-                <li>IP : xxxxxxxx</li>
-            </ul>
-        </div>
-
-        <!-- PARTIE DE DROITE -->
-        <div class="chat">
-            <div class="contenu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/chat.css">
+        <title>RetroChat</title>
+    </head>
+    <body>
+        <div id="principale">
+            <!-- PARTIE DE GAUCHE -->
+            <div class="infos">
+                <h2>Infos sur la session :</h2>
+                <ul>
+                    <li>Pseudo : xxxxxxxx</li>
+                    <li>IP : xxxxxxxx</li>
+                </ul>
             </div>
 
-            <form id="message-form">
-                <div class="envoi">
-                    <input type="text" id="test" placeholder="message">
-                    <button type="submit">envoyer</button>
-                </div>
-            </form>
-        </div>
-    </div>
+            <!-- PARTIE DE DROITE -->
+                <div class="chat">
+                    <div class="contenu">
+                    </div>
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="js/app.js"></script>
-</body>
+                <form id="message-form">
+                    <div class="envoi">
+                        <input type="text" id="test" placeholder="message">
+                        <button type="submit">envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>

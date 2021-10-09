@@ -9,14 +9,15 @@ socket.on('message', msg =>{
 
 formulaire.addEventListener('submit', (e) =>{
     e.preventDefault()
-    document.getElementById('test').value = null
     const msg = e.target.elements.test.value
+    document.getElementById('test').value = null
     msg.trim()
     socket.emit('NewMessage', msg)
 })
 
 
 function afficher(msg){
+    console.log(msg)
     const div = document.createElement('div')
     div.classList.add('message')
     div.innerHTML = `<p class="pseudo">Gatien :</p><p class="contenu">${msg}</p>`

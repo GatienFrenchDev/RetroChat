@@ -44,10 +44,13 @@ div.chat{
 }
 
 div.contenu{
+    overflow-y: scroll;
+    height: 400px;
     display: grid;
 }
 
 div.message{
+    overflow-wrap: break-word;
     display: inline-flex;
     padding: 20px;
     font-size: 20px;
@@ -60,6 +63,11 @@ p.pseudo{
 
 div.envoi{
     padding: 25px;
+}
+
+div.envoi input{
+    width: 800px;
+    height: 40px;
 }
 
 
