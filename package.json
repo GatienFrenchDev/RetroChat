@@ -4,7 +4,7 @@
   "description": "Application web de chat codé par Gatien",
   "main": "server/server.js",
   "scripts": {
-    "start":"nodemon server/server.js",
+    "start": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/GatienFrenchDev/RetroChat#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.29.1",
     "socket.io": "^4.2.0"
   },
   "devDependencies": {
