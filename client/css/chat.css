@@ -122,3 +122,14 @@ div.bas{
     padding: 10px;
     background-color: #303245;
   }
+
+  @media screen and (max-width: 900px) {
+    div.chat{
+      height: 500px;
+      padding: 23px;
+      width: 320px;
+    }
+    div.message{
+      margin-right: 0;
+    }
+  }

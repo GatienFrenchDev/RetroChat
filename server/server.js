@@ -24,7 +24,6 @@ app.use('/', express.static(__dirname + '/../client/'));
 
 const botName = config.nom_bot;
 
-// Run when client connects
 io.on('connection', socket => {
   socket.on('joinRoom', ({ username, room }) => {
     const user = userJoin(socket.id, username, room);
@@ -33,7 +32,6 @@ io.on('connection', socket => {
 
     socket.emit('message', formatMessage(botName, 'Bienvenue sur RetroChat !'));
 
-    // Broadcast when a user connects
     socket.broadcast
       .to(user.room)
       .emit(
@@ -41,7 +39,6 @@ io.on('connection', socket => {
         formatMessage(botName, `${user.username} a rejoint la salle`)
       );
 
-    // Send users and room info
     io.to(user.room).emit('roomUsers', {
       room: user.room,
       users: getRoomUsers(user.room)
