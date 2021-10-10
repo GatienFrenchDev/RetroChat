@@ -42,6 +42,6 @@ function outputMessage(message) {
   const div = document.createElement('div') 
   div.classList.add('message') 
   const p = document.createElement('p') 
-  div.innerHTML = `<p class="pseudo">${message.username} [${message.time}]:</p><p class="contenu">${message.text}</p>`
+  div.innerHTML = `<p class="pseudo">${message.username} [${message.time}]</p><p class="contenu">${message.text}</p>`
   document.querySelector('.contenu').appendChild(div) 
 }

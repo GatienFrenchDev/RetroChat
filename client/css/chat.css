@@ -109,4 +109,16 @@ div.bas{
   .input:focus ~ .placeholder {
     color: #dc2f55;
   }
+
+  p.pseudo{
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
   
+  div.message{
+    margin-top: 6px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #303245;
+  }
