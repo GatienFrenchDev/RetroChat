@@ -11,8 +11,9 @@ socket.emit('joinRoom', { username, room })
 
 
 socket.on('message', (message) => {
-  outputMessage(message) 
 
+  outputMessage(message) 
+  document.getElementById('xyz').play();
   chatMessages.scrollTop = chatMessages.scrollHeight 
 }) 
 

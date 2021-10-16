@@ -5,23 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/acceuil.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"></link>
         <title>RetroChat</title>
     </head>
     <body>
 
         <form id="envoi-pseudo" action="chat.html">
             <div class="form">
-                <div class="title">Bienvenue</div>
+                <div class="title"><i class="fa fa-comment-alt"></i> Bienvenue</div>
                 <div class="subtitle">Rejoignez RetroChat !</div>
 
                 <div class="input-container ic1">
-                  <input id="msg" class="input" name="username" autocomplete="off" type="text" placeholder=" " required>
+                  <input id="msg" class="input" name="username" autocomplete="off" maxlength="16" type="text" placeholder=" " required>
                   <div class="cut"></div>
                   <label for="msg" class="placeholder">Pseudo</label>
                 </div>
 
                 <div class="input-container ic1">
-                    <input id="room" class="input" autocomplete="off" name="room" type="text" placeholder=" " required>
+                    <input id="room" class="input" autocomplete="off" name="room" type="text" placeholder=" " maxlength="16" required>
                     <div class="cut a"></div>
                     <label for="msg" class="placeholder">Nom de la salle</label>
                   </div>
