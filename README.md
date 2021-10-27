@@ -1,9 +1,9 @@
 # 💬RetroChat
 
 RetroChat est un site web qui permet de discuter entre utilisateurs avec un systeme de salle. Il a été crée pour un projet de NSI
-##Comment cela fonctionne ?
-Ce site web est basé sur Node.js, il utilise le module `socket.io` afin de recevoir les messages en temps réel. Lorsque un message est envoyé un évènement socket.io se déclénche et les autres ordinateurs connectés recoivent le message !
-##Heberger chez soi RetroChat ?
+## Comment cela fonctionne ?
+Ce site web est basé sur **Node.js**, il utilise le module `socket.io` afin de recevoir les messages en temps réel. Lorsque un message est envoyé, un évènement socket.io se déclénche et les autres ordinateurs connectés recoivent le message !
+## Heberger chez soi RetroChat ?
 
 Il est possible d'héberger RetroChat chez vous en quelques lignes de commande (vous devez avoir installer Node.js)
 
